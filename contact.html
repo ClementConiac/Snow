@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Snow - CONTACT</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="./hover-master/css/hover-min.css">
+    <link rel="stylesheet" href="./font_icones/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+</head>
+<body class="body">
+<div class="container">
+    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center" id="navbar">
+        <a href="index.html" class="navbar-brand d-flex w-50 mr-auto">
+            <img class="animated bounceIn Down" src="logo_small_snow.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="collapsingNavbar3">
+            <ul class="navbar-nav mx-auto d-flex w-100 justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html">WORK</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid" id="jumbotron">
+        <div class="container" id="jumbotron1">
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleFirstname"></label>
+                    <input type="text" class="form-control" id="formGroupExampleFirstname" placeholder="First name">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleLastname"></label>
+                    <input type="text" class="form-control" id="formGroupExampleLastname" placeholder="Last name">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleEmail"></label>
+                    <input type="email" class="form-control" id="formGroupExampleEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleTitle"></label>
+                    <input type="email" class="form-control" id="formGroupExampleTitle" placeholder="Your Title">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleComment"></label>
+                    <input type="email" class="form-control" id="formGroupExampleComment" placeholder="Your Comment">
+                </div>
+            </form>
+            <a href="index.html"><button type="button" onclick="myFunction()" class="btn btn-secondary" id="button">SEND MESSAGE</button></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row d-flex flex-column justify-content-end align-items-center footer" >
+        <p>2017 © Design by Unvab. Code by nK </p>
+        </div>
+        <div class="row d-flex justify-content-center align-items-start footer" id="sociaux">
+            <a href="https://twitter.com/?lang=fr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://dribbble.com/"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/?hl=fr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+<script>
+    function myFunction() {
+        alert("Your message have been sent ,you will be redirected.");
+    }
+</script>
+</body>
+</html>

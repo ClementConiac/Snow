@@ -1,0 +1,27 @@
+.body{
+    font-family:'Playfair Display',serif;
+}
+#text-header{
+    background-color: #f6f6f6;
+}
+#image-header{
+    padding: 0;
+}
+#navbar{
+    margin-top: 20px;
+}
+#header{
+    margin-top: 20px;
+}
+.text-header{
+    color: #ffffff;
+}
+.footer{
+    height: 100px;
+    background-color: #cccccc;
+}
+#sociaux a{
+    color: #000000;
+    margin-right: 10px;
+}
+

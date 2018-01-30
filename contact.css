@@ -1,0 +1,38 @@
+.body{
+    font-family:'Playfair Display',serif;
+}
+#navbar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#jumbotron{
+    margin:0;
+}
+#test{
+    width: 50px;
+}
+#formGroupExampleFirstname{
+    width: 35%;
+}
+#formGroupExampleLastname{
+    width: 35%;
+}
+#formGroupExampleEmail{
+    width: 70%;
+}
+#formGroupExampleTitle{
+    width: 20%;
+}
+#formGroupExampleComment{
+    height: 100px;
+    width: 70%;
+}
+.footer{
+    height: 100px;
+    background-color: #cccccc;
+
+}
+#sociaux a {
+    color: #000000;
+    margin-right: 10px;
+}

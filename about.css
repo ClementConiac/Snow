@@ -1,0 +1,44 @@
+.body{
+    font-family:'Playfair Display',serif;
+}
+#navbar{
+    margin-top: 20px;
+}
+#header{
+    margin-top: 20px;
+    height: 670px;
+    background: url("./image_about/background-about.jpg") no-repeat center;
+    text-align: center;
+}
+#text-header{
+    margin-top: 50px ;
+}
+#image-about-us{
+    padding: 0;
+}
+#image-about-us-2{
+    padding: 0;
+}
+#progress1{
+    width: 75%;
+}
+#progress2{
+    width: 90%;
+}
+#progress3{
+    width: 65%;
+}
+.about-carac{
+    padding: 0;
+}
+.progress {
+    width: 80%;
+}
+.footer{
+    height: 100px;
+    background-color: #cccccc;
+}
+#sociaux a{
+    color: #000000;
+    margin-right: 10px;
+}
